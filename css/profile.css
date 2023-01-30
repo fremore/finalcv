@@ -1,0 +1,140 @@
+/*curriculum profile*/
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
+.profile-info {
+    margin-bottom: 45px;
+}
+
+.profile-img {
+    width: 70%;
+    max-width: 250px;
+    padding: 10px;
+    position: center;
+}
+
+.profile-img-section {
+    position: relative;
+}
+
+.profile-img-line {
+    background-color: var(--secondary-color);
+    height: 15px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.profile {
+    text-align: left;
+}
+
+.profile-title {
+    font-size: 28px;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: "Roboto light", Noto Sans", sans-serif;
+}
+
+.profile-subtitle {
+    font-size: 22px;
+    margin: 0;
+    color: green;
+    text-decoration: underline;
+    font-family: "Roboto", Noto Sans", sans-serif;   
+}
+
+.profile-column-two {
+    font-size: 18px;
+    color: white;
+    text-decoration: underline;
+    font-family: "Roboto light", Noto Sans", sans-serif;   
+}
+
+.profile-column-two-details {
+    font-size: 17px;
+    color: white;
+    font-family: "Roboto light", Noto Sans", sans-serif;   
+}
+
+.profile-details {
+    font-size: 18px;
+    font-weight: 650;
+    line-height: 1.3;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Roboto light, Verdana, Tahoma, sans-serif;
+}
+
+.profile-boton {
+    background-color: green;
+    color: var(--text-color-inverse);
+    border: none;
+    font-size: 19px;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-boton:hover {
+    filter: brightness(130%);
+}
+
+@media (min-width: 950px) {
+    .profile-info {
+        margin-bottom: 0px;
+    }
+
+    .profile-img {
+        width: 100%;
+        max-width: 320px;
+        padding: 10px;
+    }
+
+    .profile {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .profile-title {
+        font-size: 32px;
+        font-family: "Roboto", Noto Sans", sans-serif;
+    }
+
+    .profile-subtitle {
+        font-size: 26px;
+        margin: 0;
+        color: green;
+        text-decoration: underline;
+        font-family: "Roboto", Noto Sans", sans-serif;
+    }
+
+    .profile-details {
+        font-size: 18px;
+        margin: 16px 0;
+        font-family: Roboto light, Verdana, Tahoma, sans-serif;
+    }
+
+    .profile-column-two {
+        font-size: 18px;
+        color: white;
+        text-decoration: underline;
+        font-family: "Roboto light", Noto Sans", sans-serif;
+    }
+
+    .profile-column-two-details {
+        font-size: 17px;
+        color: white;
+        font-family: "Roboto light", Noto Sans", sans-serif; 
+    }
+
+    .profile-boton {
+        font-size: 20px;
+    }
+    
+}
