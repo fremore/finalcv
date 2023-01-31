@@ -1,5 +1,6 @@
 # finalcv
-<em>Proyecto Final curso Academy Ticmas - Argentina Programa 4.0</em>
+
+<em>Proyecto Final curso Academy Ticmas - Argentina Programa 4.0</e
 
 no  incluye información personal  y los datos personales y foto fueron tomadas de personas ficticias
 Lo realice en html, css, javaScript, también utilice bootstrap, pdf 
